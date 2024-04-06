@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 40.052 s <<< FAILURE! - in TestSuite
+insuranceCalculate(insuranceCalculation_Motorcycle.EndToEndTest_Motorcycle)  Time elapsed: 8.087 s  <<< FAILURE!
+java.lang.AssertionError: Pricing for Gold plan is not matched expected [696.00] but found [238.00]
+	at insuranceCalculation_Motorcycle.EndToEndTest_Motorcycle.insuranceCalculate(EndToEndTest_Motorcycle.java:72)
+
+insuranceCalculate(insuranceCalculation_Motorcycle.EndToEndTest_Motorcycle)  Time elapsed: 7.289 s  <<< FAILURE!
+java.lang.AssertionError: Pricing for Gold plan is not matched expected [793.00] but found [238.00]
+	at insuranceCalculation_Motorcycle.EndToEndTest_Motorcycle.insuranceCalculate(EndToEndTest_Motorcycle.java:72)
+
+insuranceCalculate(insuranceCalculation_Motorcycle.EndToEndTest_Motorcycle)  Time elapsed: 7.012 s  <<< FAILURE!
+java.lang.AssertionError: Pricing for Gold plan is not matched expected [] but found [87.00]
+	at insuranceCalculation_Motorcycle.EndToEndTest_Motorcycle.insuranceCalculate(EndToEndTest_Motorcycle.java:72)
+
